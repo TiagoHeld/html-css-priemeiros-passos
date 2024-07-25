@@ -1,0 +1,86 @@
+body {
+  background-color: #f5f0dc;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 200px;
+  float: left;
+}
+
+nav ul li {
+  background-color: #c7be9b;
+  margin-bottom: 3px;
+  padding: 3px;
+}
+
+nav ul li:hover {
+  background: #9c8f67;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#banner {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#conteudo {
+  width: 740px;
+  float: right;
+}
+
+#topo {
+  text-align: center;
+}
+
+h2 {
+  /* background-color: #b3a742; */
+  background: linear-gradient(to top, #9c8f67, #c7be9b);
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 5px;
+  color: #ffffff;
+}
+
+figure {
+  background-color: #fff;
+  width: 400px;
+  text-align: center;
+  padding: 15px;
+  font-family: cursive;
+  border: 1px solid black;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7);
+}
+
+figure:hover {
+  transform: rotate(-5deg);
+}
+
+#tb-nutrientes {
+  border: 1px solid black;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#tb-nutrientes th {
+  background-color: #f8ea6b;
+}
+
+#tb-nutrientes tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+#tb-nutrientes tr:nth-child(even) {
+  background-color: #f8eab3;
+}
